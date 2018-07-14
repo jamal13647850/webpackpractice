@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "lodash": "^4.17.10",
+    "moment": "^2.22.2",
     "webpack": "^4.16.0"
   }
 }
