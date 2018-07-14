@@ -1,4 +1,7 @@
-import log from './logger.js'
+import log from './logger.js';
+import '../styles/main.css';
+import '../styles/main.scss';
+
 function component() {
     var element = document.createElement('div');
 
