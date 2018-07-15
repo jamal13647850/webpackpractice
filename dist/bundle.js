@@ -86,25 +86,25 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./styles/main.scss":
-/*!*********************************************************************************************!*\
-  !*** ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./styles/main.scss ***!
-  \*********************************************************************************************/
+/***/ "./node_modules/css-loader/index.js?!./node_modules/sass-loader/lib/loader.js!./styles/main.scss":
+/*!*******************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--5-1!./node_modules/sass-loader/lib/loader.js!./styles/main.scss ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"h2 {\\n  color: red; }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./styles/main.scss?./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js");
+eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(true);\n// imports\n\n\n// module\nexports.push([module.i, \"h2 {\\n  color: red; }\\n\", \"\", {\"version\":3,\"sources\":[\"E:/MyProjects/webpack/01/styles/main.scss\"],\"names\":[],\"mappings\":\"AAAA;EACE,WAAW,EAAE\",\"file\":\"main.scss\",\"sourcesContent\":[\"h2 {\\n  color: red; }\\n\"],\"sourceRoot\":\"\"}]);\n\n// exports\n\n\n//# sourceURL=webpack:///./styles/main.scss?./node_modules/css-loader??ref--5-1!./node_modules/sass-loader/lib/loader.js");
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./styles/main.css":
-/*!***************************************************!*\
-  !*** ./node_modules/css-loader!./styles/main.css ***!
-  \***************************************************/
+/***/ "./node_modules/css-loader/index.js?!./styles/main.css":
+/*!*************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./styles/main.css ***!
+  \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"h2{\\r\\n    opacity: .7;\\r\\n}\\r\\np{\\r\\n    background-color: black;\\r\\n    color: azure;\\r\\n}\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./styles/main.css?./node_modules/css-loader");
+eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(true);\n// imports\n\n\n// module\nexports.push([module.i, \"h2{\\r\\n    opacity: .7;\\r\\n}\\r\\np{\\r\\n    background-color: black;\\r\\n    color: azure;\\r\\n}\", \"\", {\"version\":3,\"sources\":[\"E:/MyProjects/webpack/01/styles/main.css\"],\"names\":[],\"mappings\":\"AAAA;IACI,YAAY;CACf;AACD;IACI,wBAAwB;IACxB,aAAa;CAChB\",\"file\":\"main.css\",\"sourcesContent\":[\"h2{\\r\\n    opacity: .7;\\r\\n}\\r\\np{\\r\\n    background-color: black;\\r\\n    color: azure;\\r\\n}\"],\"sourceRoot\":\"\"}]);\n\n// exports\n\n\n//# sourceURL=webpack:///./styles/main.css?./node_modules/css-loader??ref--6-1");
 
 /***/ }),
 
@@ -1558,7 +1558,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("\nvar content = __webpack_require__(/*! !../node_modules/css-loader!./main.css */ \"./node_modules/css-loader/index.js!./styles/main.css\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./styles/main.css?");
+eval("\nvar content = __webpack_require__(/*! !../node_modules/css-loader??ref--6-1!./main.css */ \"./node_modules/css-loader/index.js?!./styles/main.css\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./styles/main.css?");
 
 /***/ }),
 
@@ -1569,7 +1569,7 @@ eval("\nvar content = __webpack_require__(/*! !../node_modules/css-loader!./main
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("\nvar content = __webpack_require__(/*! !../node_modules/css-loader!../node_modules/sass-loader/lib/loader.js!./main.scss */ \"./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./styles/main.scss\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./styles/main.scss?");
+eval("\nvar content = __webpack_require__(/*! !../node_modules/css-loader??ref--5-1!../node_modules/sass-loader/lib/loader.js!./main.scss */ \"./node_modules/css-loader/index.js?!./node_modules/sass-loader/lib/loader.js!./styles/main.scss\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./styles/main.scss?");
 
 /***/ }),
 

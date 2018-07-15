@@ -11,9 +11,40 @@ module.exports = {
     mode: "development",
     module: {
         rules: [
-            { test : /\.js$/,enforce: 'pre',exclude : /node_modules/, use :['jshint-loader']},
-            { test: /\.s[ac]ss$/, use: ['style-loader','css-loader','sass-loader'] },
-            { test: /\.css$/, use: ['style-loader','css-loader'] }
+            {
+                test: /\.js$/,
+                enforce: 'pre',
+                exclude: /node_modules/,
+                use: {
+                    loader: 'jshint-loader',
+                    options : {
+                        esversion: 6
+                    }
+                }
+            },
+            {
+                test: /\.s[ac]ss$/,
+                use: [
+                    'style-loader',
+                    {
+                        loader: "css-loader",
+                        options : {
+                            sourceMap : true
+                        }
+                    },
+                    'sass-loader'
+                ]
+            },
+            { test: /\.css$/, use: [
+                'style-loader',
+                 {
+                     loader: "css-loader",
+                     options : {
+                         sourceMap : true
+                     }
+                 }
+                ]
+            }
         ]
     },
     plugins : [
